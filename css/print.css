@@ -1,0 +1,76 @@
+
+.title 
+{
+	text-align: center;
+	font-size: 14px;
+}
+table.footer
+{
+	color: #333; /* Lighten up font color */
+	width: 100%;
+	border-collapse:
+	collapse; border-spacing: 0;
+	margin-top: 20px;
+}
+
+table.footer td, table.footer th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+table.footer td,table.footer th
+{
+	padding: 5px;
+}
+table.footer .no_border td,table.footer .no_border th
+{
+	border:1px solid #fff !important;
+}
+table.data { page-break-inside:auto }
+table.data tr    { page-break-inside:avoid; page-break-after:auto }
+table.data
+{
+	padding: 9px;
+}
+table.data td,table.data th
+{
+	border:1px solid #000;
+	margin: 0px;
+	padding: 5px;
+}
+
+
+table.data {
+color: #333; /* Lighten up font color */
+font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+width: 100%;
+border-collapse:
+collapse; border-spacing: 0;
+}
+
+table.data td, table.data th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+
+table.data th {
+background: #F3F3F3; /* Light grey background */
+font-weight: bold; /* Make sure they're bold */
+text-align: left;
+}
+
+table.data td {
+background: #FFF; /* Lighter grey background */
+}
+img.logo 
+{
+	width:80px;
+}
+table.kop_surat td 
+{
+	padding-left: 30px; 	
+	text-align: center;
+
+}
+h1.judul
+{
+	font-size: 14pt;
+}
+table.kop_surat
+{
+	width: 100%;
+	margin-bottom: 40px;
+}
